@@ -32,11 +32,41 @@
         height: 250px;
     }
 
+    /* -------------- */
+    /* Sidebar Layout */
+    /* -------------- */
 }
 
 @media only screen and (max-width: 992px)
 {
+    main.side-bar {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    main.side-bar .hero-left {
+        width: 100%;
+        max-height: 200px;
+        /* max-height: 100px !important; */
+        /* height: auto; */
+        object-fit: cover;
+    }
+    
+    
+    .side-bar .description {
+        padding: 0px;
+        margin: 0 auto;
+        width: 80%
+    }
     main.sub-page .hero h1 {
+        font-size: 10vw;
+    }
+
+    main.side-bar .description {
+        line-height: 2;
+    }
+
+    main.side-bar .description h1 {
         font-size: 10vw;
     }
 }
