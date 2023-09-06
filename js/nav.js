@@ -1,12 +1,5 @@
-var menu_icon
-var nav
-
-document.addEventListener("DOMContentLoaded", function () {
-    menu_icon = document.getElementById("menu_icon");
-    var navs = document.getElementsByClassName('main_nav');
-    nav = navs[0]
-
-});
+const menu_icon = document.querySelector('#menu_icon')
+const nav = document.querySelector('nav');
 
 function toggle_menu()
 {
