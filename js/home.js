@@ -1,4 +1,4 @@
-anime({
+const fadeIn = () => anime({
     targets: '.hero div',
     translateY: {
         value: 20,
@@ -8,9 +8,10 @@ anime({
     },
     easing: 'easeInOutSine',
     // borderRadius: 8,
-    direction: 'reverse',
-    opacity: 0,
+    // direction: 'reverse',
+    opacity: 1,
     // looping: true,
     duration: 500
 });
 
+window.addEventListener('load', fadeIn);

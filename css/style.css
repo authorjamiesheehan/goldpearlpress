@@ -163,7 +163,7 @@ main.home section.hero div {
     /* color: #FEBE3C; */
     /* color: #0089a8; */
     color: #95763a;
-    opacity: 100;
+    opacity: 0;
     width: 100%;
     max-width: 800px;
     background-color: rgba(255, 255, 255, 0.925);
