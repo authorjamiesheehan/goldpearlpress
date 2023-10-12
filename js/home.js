@@ -1,7 +1,7 @@
 const fadeIn = () => anime({
     targets: '.hero div',
     translateY: {
-        value: 20,
+        value: -20,
         // delay: 400,
         // easing: 'easeInOutQuart',
         duration: 1000,
