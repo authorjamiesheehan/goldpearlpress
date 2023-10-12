@@ -148,7 +148,7 @@ main.home {
 
 section.hero {
     /* grid-area: a; */
-    background-image: url("/img/home_background-pickawood-min.jpg");
+    background-image: url("/img/home_background-pickawood-min.webp");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -223,12 +223,12 @@ main.sub-page section.hero {
 }
 
 main.about-us section.hero {
-    background-image: url("/img/about_us-tim-patch-min.jpg");
+    background-image: url("/img/about_us-tim-patch-min.webp");
 }
 
 
 main.submissions section.hero {
-    background-image: url("/img/submissions-phil-min-crop.jpg");
+    background-image: url("/img/submissions-phil-crop-min.webp");
     /* background-position: 0 -450px; */
 }
 
@@ -268,7 +268,7 @@ main.side-bar .hero-left {
     /* width: 100%; */
     /* width: 100%; */
     /* object-fit: contain; */
-    /* background-image: url("/img/contact-min.jpg"); */
+    /* background-image: url("/img/contact-min.webp"); */
     /* background-size: contain; */
     /* background-attachment: fixed; */
     /* background-position: center; */
