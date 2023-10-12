@@ -5,9 +5,9 @@ window.addEventListener('load', () => {
         '/about/',
         '/submissions/',
         '/contact/',
-        '/img/about_us-tim-patch-min.jpg',
-        '/img/contact-min.jpg',
-        '/img/submissions-phil-min-crop.jpg',
-        '/img/home_background-pickawood-min.jpg'
+        '/img/about_us-tim-patch-min.webp',
+        '/img/contact-min.webp',
+        '/img/submissions-phil-crop-min.webp',
+        '/img/home_background-pickawood-min.webp'
     ]);
 });
